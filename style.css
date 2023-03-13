@@ -29,21 +29,27 @@ body{
     grid-area: blue;
     background-image: url("images/right_bottom.png");
     border-bottom-right-radius: 100%;
+    background-repeat: no-repeat;
 }
 .red{
     grid-area: red;
     background-image: url("images/right_top.png");
     border-top-right-radius: 100%;
+    background-repeat: no-repeat;
 }
 .yellow{
     grid-area: yellow;
     background-image: url("images/left_bottom.png");
     border-bottom-left-radius: 100%;
+    background-position: 10px 0;
+    background-repeat: no-repeat;
 }
 .green{
     grid-area: green;
     background-image: url("images/left_top.png");
     border-top-left-radius: 100%;
+    background-position-x: right;
+    background-repeat: no-repeat;
 }
 .selected{
     opacity: 0.4;
